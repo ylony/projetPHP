@@ -1,0 +1,225 @@
+/* */
+
+
+body{
+	color:#1e1e1e;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Open Sans;
+	background: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/* NavBar */
+
+nav{
+	position: absolute;
+	top: -1px;
+	left:-1px;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(10, 10, 10, 0.4);
+	border-radius: 5px;
+}
+
+nav .nav_content{
+	padding-top: 10px;
+	display: inline-block;
+
+}
+
+nav p{
+	display: inline;
+}
+
+nav .logo{
+	padding-top: 10px;
+	font-size: 24px;
+	font-weight: 800;
+	color:#D2691E;
+	padding-left: 10px;
+}
+
+nav .logo a{
+	color:#D2691E;
+	text-decoration: none;
+}
+
+.nav_link{
+	float:right;
+	margin-right: 75px;
+	font-size: 16px;
+	color:#D2691E;
+	display: inline-block;
+}
+
+.nav_link a{
+	color:#D2691E;
+	text-decoration: none;
+}
+
+.nav_link a:hover{
+	color:#FFFFFF;
+}
+
+nav ul li{
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.link{
+	display: inline-block;
+	margin-left: 10px;
+	
+}
+
+.link:hover{
+	display: block;
+	max-height: 15em;
+}
+
+/**/
+
+
+.todoPanel{
+	width:535px;
+	min-height: 450px;
+	margin: auto;
+	margin-top: 70px;
+	background-color: rgba(11, 11, 11, 0.70);
+	background: url('../img/panel.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    -webkit-border-radius:2px;
+    border-radius: 2px;
+    border: none;
+    overflow: auto;
+}
+
+.todoPanel .topTitle{
+	color:#1e1e1e;
+	font-size: 36px;
+	font-weight: 800;
+	margin:auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.todoPanel li{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.todoPanel .todo{
+	color: #1e1e1e;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.todoPanel .subTitle{
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 80px;
+}
+
+.todoPanel .subSelect{
+	margin-left: 80px;
+}
+
+.todoPanel .contentNote{
+	min-height: 320px;
+}
+
+.todoPanel .contentNoteAdd{
+	min-height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.todoPanel .loginTable{
+	margin-top: 100px;
+	margin-left: 130px;
+}
+
+.todoPanel .done{
+	height: 15px;
+	width: 15px;
+}
+
+.todoPanel .addListeTable{
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+.todoPanel .btnAdd{
+	margin-top:60px;
+	margin-bottom:50px;
+	margin-left:25%;
+	background-color: #1e1e1e;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	border:none;
+	color:#FFF;
+	height: 50px;
+	width: 50%;
+	font-size: 24px;
+}
+
+.todoPanel .btnAdd:hover{
+	background-color: #2e2e2e;
+}
+
+.todoPanel .err{
+	color:#f33333;
+	margin-left:100px;
+}
+
+.todoPanel .pagination{
+	text-align: center;
+	font-weight: 300;
+}
+
+.todoPanel .pagination a{
+	text-decoration: none;
+	color:#1e1e1e;
+}
+
+.todoPanel .pagination a:hover{
+	color:#FFFFFF;
+}
+
+.content{
+	height: 1000px;
+}
+
+/* FOOTER */
+
+footer{
+	width: 100%;
+	position:relative;
+	bottom:-10px;
+	height: 40px;
+	left:-7px;
+	background-color: #1c1c1c;
+	}
+footer .pied_page{
+	background-color: #1e1e1e;
+	font-weight: 300;
+}
+footer .copyr{
+	color:#747471;
+	font-weight: 300;
+	font-size: 12px;
+	padding-left: 100px;
+	padding-top: 10px;
+}
+
+/**/
